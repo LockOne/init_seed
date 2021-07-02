@@ -1,0 +1,10 @@
+set Exif.Image.TileWidth 1223
+add Exif.Image.Compression 12212
+del Exif.Image.Model Long 223
+add Exif.GPSInfo.GPSProcessingMethod Undefined adsfw
+del Exif.GPSInfo.GPSDestDistanceRef 12 121124
+set Exif.Iop.InteroperabilityVersion 12211
+add Exif.Photo.RecommendedExposureIndex 1221
+set Exif.Image.Compression 12112
+set Exif.Image.Compression 12112
+set Exif.Image.ProfileLookTableData 1212112

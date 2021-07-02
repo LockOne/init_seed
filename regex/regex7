@@ -1,0 +1,37 @@
+^
+# get the title of this movie or series
+(?P<title> 
+  [-\w'"]+
+  # match separator to later replace into correct title
+  (?P<separator> [ .] ) 
+  # note this *must* be lazy for the engine to work ltr not rtl
+  (?: [-\w'"]+\2 )*?
+)
+# start of movie vs serie check
+(?:
+  # if this is an episode, lets match the season 
+  # number one way or another. if not, the year 
+  # of the movie
+  (?:
+    # series. can be a lot prettier if we used perl regex...
+    # make sure this is not just a number in the title followed by our separator. 
+    # like, iron man 3 2013 or my.fictional.24.series
+    (?! \d+ \2 )
+    # now try to match the season number
+    (?: s (?: eason \2? )? )?
+    (?P<season> \d\d? )
+    # needed to validate the last token is a dot, or whatever.
+    (?: e\d\d? (?:-e?\d\d?)? | x\d\d? )? |
+    # this is likely a movie, match the year
+    (?P<year> [(\]]?\d{4}[)\]]? ) 
+  )
+  # make sure this ends with the separator, otherwise we 
+  # might be in the middle of something like "1080p"
+  (?=\2) |
+  # if we get here, this is likely still a movie.
+  # match until one of the keywords
+  (?= BOXSET  | XVID   | DIVX | LIMITED   | 
+      UNRATED | PROPER | DTS  | AC3 | AAC | BLU[ -]?RAY | 
+      HD(?:TV|DVD) | (?:DVD|B[DR]|WEB)RIP | \d+p |Â [hx]\.?264
+  )
+)

@@ -1,0 +1,291 @@
+@charset "UTF-8";
+.careers-intro-link-wrapper {
+  text-align: center; }
+
+.careers-positions {
+  background: #f5f6f6;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd; }
+
+.careers-intro-link {
+  line-height: 35px;
+  padding: 0 30px; }
+
+.careers-title {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 400; }
+
+.job-item {
+  margin-bottom: 10px;
+  *zoom: 1;
+  display: block; }
+  .job-item:before, .job-item:after {
+    content: " ";
+    display: table; }
+  .job-item:after {
+    clear: both; }
+  @media screen and (min-width: 960px) {
+    .job-item {
+      margin-bottom: 15px; } }
+
+.job-title {
+  font-size: 16px; }
+  @media screen and (min-width: 960px) {
+    .job-title {
+      float: left; } }
+
+@media screen and (min-width: 960px) {
+  .job-location {
+    float: right; } }
+
+.horizontal-seperator {
+  border-top: 1px solid #dddddd;
+  *zoom: 1;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 32.5em; }
+  .horizontal-seperator:before, .horizontal-seperator:after {
+    content: " ";
+    display: table; }
+  .horizontal-seperator:after {
+    clear: both; }
+  @media screen and (min-width: 960px) {
+    .horizontal-seperator {
+      max-width: 60em; } }
+
+.casestudy-metacontent-wrapper {
+  *zoom: 1;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 32.5em;
+  padding: 0 10px; }
+  .casestudy-metacontent-wrapper:before, .casestudy-metacontent-wrapper:after {
+    content: " ";
+    display: table; }
+  .casestudy-metacontent-wrapper:after {
+    clear: both; }
+  @media screen and (min-width: 960px) {
+    .casestudy-metacontent-wrapper {
+      max-width: 60em; } }
+
+.casestudy-maincontent-wrapper {
+  *zoom: 1;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 32.5em;
+  padding: 20px 10px; }
+  .casestudy-maincontent-wrapper:before, .casestudy-maincontent-wrapper:after {
+    content: " ";
+    display: table; }
+  .casestudy-maincontent-wrapper:after {
+    clear: both; }
+  @media screen and (min-width: 960px) {
+    .casestudy-maincontent-wrapper {
+      max-width: 60em; } }
+  @media screen and (min-width: 960px) {
+    .casestudy-maincontent-wrapper {
+      padding: 20px 10px 30px; } }
+
+.casestudy-image-wrapper {
+  display: block;
+  float: left;
+  margin-right: 10.34483%;
+  width: 100%;
+  margin-bottom: 10px; }
+  .casestudy-image-wrapper:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 960px) {
+    .casestudy-image-wrapper {
+      display: block;
+      float: left;
+      margin-right: 3.22581%;
+      width: 39.78495%; }
+      .casestudy-image-wrapper:last-child {
+        margin-right: 0; } }
+
+.casestudy-description {
+  display: block;
+  float: left;
+  margin-right: 10.34483%;
+  width: 100%; }
+  .casestudy-description:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 960px) {
+    .casestudy-description {
+      display: block;
+      float: left;
+      margin-right: 3.22581%;
+      width: 56.98925%; }
+      .casestudy-description:last-child {
+        margin-right: 0; } }
+
+.casestudy-quote-wrapper {
+  display: block;
+  float: left;
+  margin-right: 10.34483%;
+  width: 100%; }
+  .casestudy-quote-wrapper:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 960px) {
+    .casestudy-quote-wrapper {
+      display: block;
+      float: left;
+      margin-right: 3.22581%;
+      width: 39.78495%; }
+      .casestudy-quote-wrapper:last-child {
+        margin-right: 0; } }
+
+.casestudy-award-wrapper {
+  display: block;
+  float: left;
+  margin-right: 10.34483%;
+  width: 100%; }
+  .casestudy-award-wrapper:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 960px) {
+    .casestudy-award-wrapper {
+      display: block;
+      float: left;
+      margin-right: 3.22581%;
+      width: 56.98925%; }
+      .casestudy-award-wrapper:last-child {
+        margin-right: 0; } }
+.casestudy-panel {
+  display: block;
+  float: left;
+  margin-right: 10.34483%;
+  width: 44.82759%; }
+  .casestudy-panel:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 960px) {
+    .casestudy-panel {
+      display: block;
+      float: left;
+      margin-right: 5.66038%;
+      width: 39.62264%; }
+      .casestudy-panel:last-child {
+        margin-right: 0; } }
+
+.casestudy-award-title {
+  text-transform: uppercase; }
+
+.casestudy-award-subtitle {
+  text-transform: none;
+  display: block;
+  font-weight: 300;
+  font-size: 16px; }
+
+.casestudy-award-main {
+  padding: 0 0 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #b0b0b0; }
+
+.casestudy-panel {
+  background: white;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 10px 20px; }
+.large-panel-content {
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
+  margin-bottom: 15px; }
+
+.large-panel-link-wrapper {
+  text-align: center; }
+
+.large-panel-link {
+  min-width: 66%; }
+
+.large-panel-iconwrapper {
+  text-align: center;
+  font-size: 54px;
+  margin: 0 0 15px;
+  color: #00b4ea; }
+
+.large-panel-image {
+  max-width: 100%;
+  max-height: 74px; }
+
+.stack {
+  background-color: #f5f6f6;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd; }
+#grid .mix {
+  opacity: 0;
+  display: none; }
+
+.date-wrapper {
+  *zoom: 1;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 32.5em;
+  padding: 30px 10px; }
+  .date-wrapper:before, .date-wrapper:after {
+    content: " ";
+    display: table; }
+  .date-wrapper:after {
+    clear: both; }
+  @media screen and (min-width: 960px) {
+    .date-wrapper {
+      max-width: 60em; } }
+
+.date-item {
+  display: block;
+  float: left;
+  margin-right: 10.34483%;
+  width: 100%;
+  margin-bottom: 10px; }
+  .date-item:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 960px) {
+    .date-item {
+      display: block;
+      float: left;
+      margin-right: 3.22581%;
+      width: 48.3871%; }
+      .date-item:last-child {
+        margin-right: 0; }
+      .date-item:nth-child(2n) {
+        margin-right: 0;
+        margin-bottom: 40px; } }
+
+.date-circle-wrapper {
+  display: block;
+  float: left;
+  margin-right: 10.34483%;
+  width: 17.24138%; }
+  .date-circle-wrapper:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 960px) {
+    .date-circle-wrapper {
+      display: block;
+      float: left;
+      margin-right: 6.66667%;
+      width: 28.88889%; }
+      .date-circle-wrapper:last-child {
+        margin-right: 0; } }
+
+.date-content-wrapper {
+  display: block;
+  float: left;
+  margin-right: 10.34483%;
+  width: 72.41379%; }
+  .date-content-wrapper:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 960px) {
+    .date-content-wrapper {
+      display: block;
+      float: left;
+      margin-right: 6.66667%;
+      width: 64.44444%; }
+      .date-content-wrapper:last-child {
+        margin-right: 0; } }
+.date-link {
+  display: block; }
+

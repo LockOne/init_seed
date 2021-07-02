@@ -1,0 +1,13 @@
+set Exif.Image.ProfileHueSatMapDims 12
+add Exif.Image.CalibrationIlluminant2 1221312
+set Exif.Image.BaselineNoise 1212124124124312
+add Exif.Image.ReductionMatrix2	2323235234
+set Exif.Image.WhiteLevel 2112123
+set Exif.Image.ProfileHueSatMapDims 12
+add Exif.Image.CalibrationIlluminant2 1221312
+set Exif.Image.BaselineNoise 1212124124124312
+add Exif.Image.ReductionMatrix2	2323235234
+set Exif.Image.WhiteLevel 2112123
+set Exif.Photo.SubjectLocation	 1265786765
+add Exif.Photo.ExposureIndex 214512412412435242
+add Exif.Photo.ImageUniqueID 1212123123

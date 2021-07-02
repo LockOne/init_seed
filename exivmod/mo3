@@ -1,0 +1,4 @@
+set Exif.GPSInfo.GPSDateStamp Short 124123213
+add Exif.Image.TransferRange Byte 12123123
+add Exif.Image.NewSubfileType Long 164578
+del Exif.Image.PhotometricInterpretation Short 122312
