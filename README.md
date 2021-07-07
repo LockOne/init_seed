@@ -1,6 +1,4 @@
 # init_seed
 
-
 1. Add initial seeds as you want
-2. To reduce size of the repository, make symbolic link for duplicate directory
-ex. `ln -s elf objdump`
+2. Make symbolic links for each subject if the seed directory name is different from the subject (ex. `ln -s elf objdump`)
