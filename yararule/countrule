@@ -1,0 +1,9 @@
+rule CountExample
+{
+    strings:
+        $a = "dummy1"
+        $b = "dummy2"
+
+    condition:
+        #a == 6 and #b > 10
+}

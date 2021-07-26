@@ -1,0 +1,8 @@
+rule Base64Example2
+{
+    strings:
+        $a = "This program cannot" base64("!@#$%^&*(){}[].,|ABCDEFGHIJ\x09LMNOPQRSTUVWXYZabcdefghijklmnopqrstu")
+
+    condition:
+        $a
+}

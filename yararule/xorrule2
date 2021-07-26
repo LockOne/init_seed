@@ -1,0 +1,10 @@
+rule XorExample2
+{
+    strings:
+        $xor_string_00 = "This program cannot"
+        $xor_string_01 = "Uihr!qsnfs`l!b`oonu"
+        $xor_string_02 = "Vjkq\"rpmepco\"acllmv"
+        // Repeat for every single byte XOR
+    condition:
+        any of them
+}

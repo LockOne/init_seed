@@ -1,0 +1,5 @@
+rule FileSizeExample
+{
+    condition:
+        filesize > 10KB
+}

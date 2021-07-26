@@ -1,0 +1,8 @@
+rule PrivateStringExample
+{
+    strings:
+        $text_string = "foobar" private
+
+    condition:
+        $text_string
+}
